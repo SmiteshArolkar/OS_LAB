@@ -1,0 +1,72 @@
+Script started on 2023-08-01 12:49:07+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+]0;fundlab11@fundlab11-OptiPlex-3070: ~[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~[00m$ date
+Tuesday 01 August 2023 12:49:13 PM IST
+]0;fundlab11@fundlab11-OptiPlex-3070: ~[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~[00m$ cal
+    August 2023       
+Su Mo Tu We Th Fr Sa  
+      [7m 1[27m  2  3  4  5  
+ 6  7  8  9 10 11 12  
+13 14 15 16 17 18 19  
+20 21 22 23 24 25 26  
+27 28 29 30 31        
+                      
+]0;fundlab11@fundlab11-OptiPlex-3070: ~[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~[00m$ who
+fundlab11 :0           2023-08-01 11:30 (:0)
+]0;fundlab11@fundlab11-OptiPlex-3070: ~[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~[00m$ whoami
+fundlab11
+]0;fundlab11@fundlab11-OptiPlex-3070: ~[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~[00m$ echo "Hello Wo[K[K[K[Ko Wor[K[K[K[K[K[K[K[K[KComputer Engineering:[K"
+Computer Engineering
+]0;fundlab11@fundlab11-OptiPlex-3070: ~[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~[00m$ uname
+Linux
+]0;fundlab11@fundlab11-OptiPlex-3070: ~[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~[00m$ tty
+/dev/pts/2
+]0;fundlab11@fundlab11-OptiPlex-3070: ~[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~[00m$ bc
+bc 1.07.1
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006, 2008, 2012-2017 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'. 
+5=[K+4
+9
+4&[K*7
+28
+9-2
+7
+]0;fundlab11@fundlab11-OptiPlex-3070: ~[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~[00m$ stty
+speed 38400 baud; line = 0;
+-brkint -imaxbel iutf8
+]0;fundlab11@fundlab11-OptiPlex-3070: ~[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~[00m$ mkdir exp1
+]0;fundlab11@fundlab11-OptiPlex-3070: ~[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~[00m$ cd exp1
+]0;fundlab11@fundlab11-OptiPlex-3070: ~/exp1[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~/exp1[00m$ cat >f1.txt
+]0;fundlab11@fundlab11-OptiPlex-3070: ~/exp1[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~/exp1[00m$ cat >>fi.txt
+Hello World           Linux Commands
+]0;fundlab11@fundlab11-OptiPlex-3070: ~/exp1[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~/exp1[00m$ cat f1.txt
+]0;fundlab11@fundlab11-OptiPlex-3070: ~/exp1[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~/exp1[00m$ wc f1.txt
+0 0 0 f1.txt
+]0;fundlab11@fundlab11-OptiPlex-3070: ~/exp1[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~/exp1[00m$ cat >>f1.txt
+Linuc   x com  ommands
+]0;fundlab11@fundlab11-OptiPlex-3070: ~/exp1[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~/exp1[00m$ cat f1.txt
+Linux commands
+]0;fundlab11@fundlab11-OptiPlex-3070: ~/exp1[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~/exp1[00m$ wc f1.txt
+ 1  2 15 f1.txt
+]0;fundlab11@fundlab11-OptiPlex-3070: ~/exp1[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~/exp1[00m$ pwd
+/home/fundlab11/exp1
+]0;fundlab11@fundlab11-OptiPlex-3070: ~/exp1[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~/exp1[00m$ mv [K[K[Kcmp file1.txt file2.txt
+cmp: file1.txt: No such file or directory
+]0;fundlab11@fundlab11-OptiPlex-3070: ~/exp1[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~/exp1[00m$ cd
+]0;fundlab11@fundlab11-OptiPlex-3070: ~[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~[00m$ cmp file1.txt file2.txt
+file1.txt file2.txt differ: byte 6, line 1
+]0;fundlab11@fundlab11-OptiPlex-3070: ~[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~[00m$ comm file1.txt file2.txt
+hello
+	hello world
+]0;fundlab11@fundlab11-OptiPlex-3070: ~[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~[00m$ diff file1.txt file2.txt
+1c1
+< hello
+---
+> hello world
+]0;fundlab11@fundlab11-OptiPlex-3070: ~[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~[00m$ mv file1.txt tet[Kst.txt
+]0;fundlab11@fundlab11-OptiPlex-3070: ~[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~[00m$ cat test.txt
+hello
+]0;fundlab11@fundlab11-OptiPlex-3070: ~[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~[00m$ rm test.txt
+]0;fundlab11@fundlab11-OptiPlex-3070: ~[01;32mfundlab11@fundlab11-OptiPlex-3070[00m:[01;34m~[00m$ exit
+
+Script done on 2023-08-01 12:57:30+05:30 [COMMAND_EXIT_CODE="0"]
